@@ -18,7 +18,7 @@ const Home = () => {
             <meta property="og:url" content="hhttps://www.linkedin.com/company/deconbyte-inc/" />
             <link rel="canonical" href="https://www.linkedin.com/company/deconbyte-inc/" />
         </Helmet>
-        <h1 className="mt-32 font-bold text-center text-white text-xl md:text-3xl lg:text-4xl glow-text">
+        <h1 className="mt-32 font-bold text-center text-white text-xl md:text-3xl lg:text-4xl glow-text mx-4">
             Where Imagination meets Innovation
         </h1>
         <Services />
