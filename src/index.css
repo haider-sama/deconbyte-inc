@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glassmorphism {
+    background: rgba( 33, 33, 33, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 3, 80, 150, 0.35 );
+    backdrop-filter: blur( 16px );
+    -webkit-backdrop-filter: blur( 2px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.glassmorphism-nos {
+    background: rgba( 33, 33, 33, 0 );
+    backdrop-filter: blur( 16px );
+    -webkit-backdrop-filter: blur( 2px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.particles-class {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+.glow-text {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+}
+  
