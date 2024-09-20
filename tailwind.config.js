@@ -5,6 +5,16 @@ export default {
     extend: {
       colors: {
         primary: "#212121"
+      },
+      animation: {
+        typewriter: "typewriter 2s steps(11) forwards"
+      },
+      keyframes: {
+        typewriter: {
+          to: {
+            left: "100%"
+          }
+        }
       }
     },
     container: {
