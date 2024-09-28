@@ -10,6 +10,7 @@ import TeamSection from "../../components/section/home/TeamSection";
 import TestimonialSection from "../../components/section/home/TestimonialSection";
 import FAQSection from "../../components/section/FAQSection";
 import { homeFaqs } from "../../config";
+import LocationSection from "../../components/section/home/LocationSection";
 
 
 const HomePage = () => {
@@ -38,6 +39,7 @@ const HomePage = () => {
             description="Our dedicated team is here to help you out with any queries you have regarding our services."
             faqs={homeFaqs}
         />
+        <LocationSection />
         <InfoCard />
         </>
     );

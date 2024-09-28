@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import Heading from '../../components/Heading';
 import StatsGrid from '../../components/StatsGrid';
-import NotFound from '../../components/services/NotFound';
+import NotFound from '../../components/NotFound';
 
 const WordpressDevPage = () => {
     return (

@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaPhoneAlt, FaRegClock } from 'react-icons/fa'; // Icons for Address, Phone, and Working Hours
 
-const ContactSection: React.FC = () => {
+const LocationSection: React.FC = () => {
     return (
-        <section className='bg-white' id="contact">
+        <section className="relative bg-white" id="contact">
             <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
                 <div className="mb-4">
                     <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
@@ -34,7 +34,7 @@ const ContactSection: React.FC = () => {
                                         <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900">
                                             Our Address
                                         </h3>
-                                        <p className="text-gray-600">2104 - Unit 2, Ardmore Blvd</p>
+                                        <p className="text-gray-600 ">2104 - Unit 2, Ardmore Blvd</p>
                                         <p className="text-gray-600">Pennsylvania, USA</p>
                                     </div>
                                 </li>
@@ -64,51 +64,18 @@ const ContactSection: React.FC = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="card h-fit max-w-6xl p-5 md:p-12" id="form">
-                            <h2 className="mb-4 text-2xl font-bold">Ready to Get Started?</h2>
-                            <form id="contactForm">
-                                <div className="mb-6">
-                                    <div className="mx-0 mb-1 sm:mb-4">
-                                        <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider"></label>
-                                        <input
-                                            type="text"
-                                            id="name"
-                                            placeholder="Your name"
-                                            className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md sm:mb-0"
-                                            name="name"
-                                        />
-                                    </div>
-                                    <div className="mx-0 mb-1 sm:mb-4">
-                                        <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider"></label>
-                                        <input
-                                            type="email"
-                                            id="email"
-                                            placeholder="Your email address"
-                                            className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md sm:mb-0"
-                                            name="email"
-                                        />
-                                    </div>
-                                    <div className="mx-0 mb-1 sm:mb-4">
-                                        <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider"></label>
-                                        <textarea
-                                            id="textarea"
-                                            cols={30}
-                                            rows={5}
-                                            placeholder="Write your message..."
-                                            className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md sm:mb-0"
-                                            name="textarea"
-                                        ></textarea>
-                                    </div>
-                                </div>
-                                <div className="text-center">
-                                    <button
-                                        type="submit"
-                                        className="w-full bg-blue-800 text-white px-6 py-3 text-xl rounded-md sm:mb-0"
-                                    >
-                                        Send Message
-                                    </button>
-                                </div>
-                            </form>
+                        <div className="h-fit max-w-6xl p-5 md:p-12">
+                            <div style={{ width: '100%' }}>
+                                <iframe
+                                    width="100%"
+                                    height="600"
+                                    frameBorder="0"
+                                    scrolling="no"
+                                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=2104%20-%20Unit%202,%20Ardmore%20Blvd%20%20Pennsylvania,%20USA+(DeconByte%20Inc.)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                                >
+                                    <a href="https://www.gps.ie/">gps tracker sport</a>
+                                </iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -117,4 +84,4 @@ const ContactSection: React.FC = () => {
     );
 };
 
-export default ContactSection;
+export default LocationSection;

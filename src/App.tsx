@@ -14,6 +14,8 @@ import WordpressDevPage from "./pages/services/WordpressDevPage";
 import SEOPage from "./pages/services/SEOPage";
 import AppDevPage from "./pages/services/AppDevPage";
 import SoftwareDevPage from "./pages/services/SoftwareDevPage";
+import './index.css';
+import ProjectPage from "./pages/home/ProjectPage";
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
         <Route path="/" element={<Layout><HomePage /></Layout>} />
         <Route path="/about" element={<Layout><AboutPage /></Layout>} />
         <Route path="/team" element={<Layout><TeamPage /></Layout>} />
+        <Route path="/projects" element={<Layout><ProjectPage /></Layout>} />
         <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
 
         <Route path="/services/website-development" element={<Layout><WebDevPage /></Layout>} />

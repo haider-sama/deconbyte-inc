@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import StatsGrid from '../../components/StatsGrid';
-import NotFound from '../../components/services/NotFound';
+import NotFound from '../../components/NotFound';
 import Heading from '../../components/Heading';
 
 const SEOPage = () => {

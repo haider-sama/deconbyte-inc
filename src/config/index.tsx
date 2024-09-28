@@ -1,6 +1,7 @@
 import { FaCode, FaGamepad, FaMobileAlt,
   FaCogs, FaLightbulb, FaShieldAlt, FaPalette, FaUsers, FaRegListAlt, FaRocket, 
-  FaSearch
+  FaSearch,
+  FaWordpress
 } from 'react-icons/fa';
 import { IconType } from 'react-icons';
 import { FiCheckCircle, FiCoffee, FiSmile, FiUser } from 'react-icons/fi';
@@ -49,7 +50,19 @@ export const services: Service[] = [
     icon: FaSearch,
     title: 'Search Engine Optimization',
     href: "/services/seo",
-    description: 'Maximize your online visibility with our expert SEO services. From on-page optimization to technical SEO and link-building strategies, we help your business rank higher on search engines, attract organic traffic, and boost conversions.'
+    description: 'Maximize online visibility with expert SEO services to boost your search rankings and traffic.',
+  },
+  {
+    icon: FaCogs,
+    title: 'Software Development',
+    href: "/services/software-dev",
+    description: 'Delivering custom software solutions tailored to meet unique business needs and industry requirements.',
+  },
+  {
+    icon: FaWordpress,
+    title: 'WordPress Development',
+    href: "/services/wp-dev",
+    description: 'Building responsive, customizable, and SEO-friendly WordPress websites for businesses of all sizes.',
   }
 ];
 
@@ -57,6 +70,7 @@ export const navLinks = [
     { href: "/", title: "Home" },
     { href: "/about", title: "About" },
     { href: "/team", title: "Team" },
+    { href: "/projects", title: "Projects" },
     { 
         title: "Services", 
         dropdown: [
@@ -131,51 +145,51 @@ export const statsData: StatItem[] = [
 
 export const teamMembers = [
   {
-    profilePic: 'img/ceo.gif',
-    name: 'Alice Johnson',
+    profilePic: 'img/blank-profile.png',
+    name: 'Haider Ali',
     role: 'CEO',
-    description: 'Alice is the visionary driving our company forward, leveraging years of leadership and expertise to guide our strategic direction.',
-    linkedin: 'https://linkedin.com/in/alicejohnson',
-    github: 'https://github.com/alicejohnson',
-    facebook: 'https://facebook.com/alicejohnson'
+    description: 'Haider is the visionary driving our company forward, leveraging years of leadership and technical expertise to guide our strategic direction.',
+    linkedin: 'https://www.linkedin.com/in/haider-sama/',
+    github: 'https://github.com/haider-sama',
+    facebook: 'https://www.facebook.com/saiyajinhaider/'
   },
   {
-    profilePic: 'img/black.jpg',
-    name: 'Bob Smith',
+    profilePic: 'img/cto.jpg',
+    name: 'Muhammad Burhan',
     role: 'CTO',
-    description: 'Bob is the technical mastermind behind our operations, utilizing his extensive knowledge to ensure our technology remains cutting-edge and reliable.',
-    linkedin: 'https://linkedin.com/in/bobsmith',
-    github: 'https://github.com/bobsmith',
-    facebook: 'https://facebook.com/bobsmith'
+    description: 'Burhan is the technical mastermind behind our operations, utilizing his extensive knowledge to ensure our technology remains cutting-edge and reliable.',
+    linkedin: '/',
+    github: '/',
+    facebook: '/'
   },
   {
-    profilePic: 'img/ssj4.jpg',
-    name: 'Charlie Brown',
+    profilePic: 'img/blank-profile.png',
+    name: 'Fasih ur Rehman',
     role: 'Designer',
-    description: 'Charlie is the creative force shaping our visual identity, bringing his design skills to craft innovative and engaging user experiences.',
-    linkedin: 'https://linkedin.com/in/charliebrown',
-    github: 'https://github.com/charliebrown',
-    facebook: 'https://facebook.com/charliebrown'
+    description: 'Fasih is the creative force shaping our visual identity, bringing his design skills to craft innovative and engaging user experiences.',
+    linkedin: 'https://www.linkedin.com/in/fasih-ur-rehman-b8101828a/',
+    github: '/',
+    facebook: '/'
   },
   // Add more team members as needed
 ];
 
 export const testimonials: Testimonial[] = [
   {
-    profilePic: 'img/ceo.gif',
+    profilePic: 'img/customer1.jpeg',
     name: 'Rayan',
     role: 'Restaurant Owner',
-    testimonial: 'Working with deconByte Inc. has transformed our online presence. Their attention to detail and commitment to quality are unmatched.'
+    testimonial: 'Working with deconByte Inc. has transformed our online presence. Their attention to detail and commitment to their quality are unmatched.'
   },
   {
-    profilePic: 'img/black.jpg',
-    name: 'Sarah',
+    profilePic: 'img/customer2.jpg',
+    name: 'Jeffrey L.',
     role: 'Retail Manager',
     testimonial: 'The team at deconByte Inc. delivered a stunning website that has significantly boosted our sales. Highly recommended!'
   },
   {
-    profilePic: 'img/ssj4.jpg',
-    name: 'Tom',
+    profilePic: 'img/blank-profile.png',
+    name: 'Dawid',
     role: 'Tech Startup Founder',
     testimonial: 'Excellent service and support. The website they built for us is not only visually appealing but also highly functional.'
   },
@@ -349,5 +363,23 @@ export const WebRoadmapData = [
       title: "Maintenance",
       description:
           "We take care of your website for long-term planning and ensure that it is up-to-date with more features as time goes on.",
+  },
+];
+
+export const projects = [
+  {
+    projectImage: "/img/projects/unitsdispatch.png",
+    projectName: "Units Dispatch Trucking",
+    projectLink: "https://unitsdispatch.com/",
+  },
+  {
+    projectImage: "/img/projects/vinsol.png",
+    projectName: "Vintage Solutions",
+    projectLink: "https://vinsol.net",
+  },
+  {
+    projectImage: "/img/projects/asinternational.png",
+    projectName: "AS International LLC.",
+    projectLink: "/",
   },
 ];
