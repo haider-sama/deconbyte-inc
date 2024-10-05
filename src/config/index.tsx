@@ -31,7 +31,7 @@ export const services: Service[] = [
   {
     icon: FaCode,
     title: 'Web Development',
-    href: "/services/web-dev",
+    href: "/services/website-development",
     description: 'We enjoy working with discerning clients, people for whom quality, service, integrity & aesthetics matter.',
   },
   {
@@ -43,7 +43,7 @@ export const services: Service[] = [
   {
     icon: FaMobileAlt,
     title: 'Mobile Development',
-    href: "/services/app-dev",
+    href: "/services/app-development",
     description: 'Crafting mobile solutions that are both user-friendly and feature-rich for all platforms.',
   },
   {
@@ -55,13 +55,13 @@ export const services: Service[] = [
   {
     icon: FaCogs,
     title: 'Software Development',
-    href: "/services/software-dev",
+    href: "/services/software-development",
     description: 'Delivering custom software solutions tailored to meet unique business needs and industry requirements.',
   },
   {
     icon: FaWordpress,
     title: 'WordPress Development',
-    href: "/services/wp-dev",
+    href: "/services/wordpress-development",
     description: 'Building responsive, customizable, and SEO-friendly WordPress websites for businesses of all sizes.',
   }
 ];
